@@ -1624,6 +1624,8 @@
 	};
 
 
+	Worker.support &= (window.wormhole && wormhole.workers);
+
 
 	// Export
 	singletonHole.version = '0.7.2';
